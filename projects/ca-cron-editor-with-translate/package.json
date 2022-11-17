@@ -2,8 +2,8 @@
   "name": "ca-cron-editor-with-translate",
   "description": "A cron expression generator to be used in Angular applications",
   "author": {
-    "name": "Matvey Ril",
-    "email": "matvej.ril@gmail.com"
+    "name": "Manas Datta",
+    "email": "manas@m2sys.com"
   },
   "version": "1.0.0",
   "license": "MIT",
