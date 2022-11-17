@@ -1,6 +1,6 @@
-# ca-cron-editor-with-translate
+# cloudapper-cron-editor
 
-`ca-cron-editor-with-translate` is library that helps the user graphically build a CRON expression (quartz format only) in an Angular application.
+`cloudapper-cron-editor` is library that helps the user graphically build a CRON expression (quartz format only) in an Angular application.
 It is a fork of [cron-editor-with-translate](https://github.com/matvejril/cron-editor-with-translate).
 
 This library uses the Bootstrap 3 CSS classes, but does not include them. You can style the component yourself.
@@ -13,10 +13,10 @@ A demo of this library can be found [here](https://matvejril.github.io/cron-edit
 
 ## Installation
 
-This library is published as a [npm package](https://www.npmjs.com/package/ca-cron-editor-with-translate).
+This library is published as a [npm package](https://www.npmjs.com/package/cloudapper-cron-editor).
 
 ```
-npm install ca-cron-editor-with-translate --save
+npm install cloudapper-cron-editor --save
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ npm install ca-cron-editor-with-translate --save
 For example, in `AppModule`:
 
 ```ts
-import {CronEditorModule} from 'ca-cron-editor-with-translate';
+import {CronEditorModule} from 'cloudapper-cron-editor';
 
 @NgModule({
     imports: [..., CronEditorModule],
@@ -45,7 +45,7 @@ Example:
 
 ```ts
 import { Component } from "@angular/core";
-import { CronEditorTranslateService } from "ca-cron-editor-with-translate";
+import { CronEditorTranslateService } from "cloudapper-cron-editor";
 
 @Component({
   selector: "app-root",
@@ -130,7 +130,7 @@ Component:
 
 ```ts
 import { Component } from "@angular/core";
-import { CronOptions } from "ca-cron-editor-with-translate";
+import { CronOptions } from "cloudapper-cron-editor";
 
 @Component({
   selector: "app-my",

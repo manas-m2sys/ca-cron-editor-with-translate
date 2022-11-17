@@ -1,5 +1,5 @@
 {
-  "name": "ca-cron-editor-with-translate",
+  "name": "cloudapper-cron-editor",
   "description": "A cron expression generator to be used in Angular applications",
   "author": {
     "name": "Manas Datta",
@@ -9,12 +9,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/manas-m2sys/ca-cron-editor-with-translate"
+    "url": "git://github.com/manas-m2sys/cloudapper-cron-editor"
   },
   "bugs": {
-    "url": "https://github.com/manas-m2sys/ca-cron-editor-with-translate/issues"
+    "url": "https://github.com/manas-m2sys/cloudapper-cron-editor/issues"
   },
-  "homepage": "https://github.com/manas-m2sys/ca-cron-editor-with-translate",
+  "homepage": "https://github.com/manas-m2sys/cloudapper-cron-editor",
   "keywords": [
     "angular",
     "cron",

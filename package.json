@@ -9,12 +9,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/manas-m2sys/ca-cron-editor-with-translate"
+    "url": "git://github.com/manas-m2sys/cloudapper-cron-editor"
   },
   "bugs": {
-    "url": "https://github.com/manas-m2sys/ca-cron-editor-with-translate/issues"
+    "url": "https://github.com/manas-m2sys/cloudapper-cron-editor/issues"
   },
-  "homepage": "https://github.com/manas-m2sys/ca-cron-editor-with-translate",
+  "homepage": "https://github.com/manas-m2sys/cloudapper-cron-editor",
   "keywords": [
     "angular",
     "cron",
@@ -28,13 +28,13 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ca-cron-editor-with-translate",
+    "build_lib": "ng build cloudapper-cron-editor",
     "build": "npm run build_lib && ng build --configuration production",
     "start": "npm run build_lib && ng serve",
-    "copy-license": "node -e \"require('fs').copyFileSync('LICENSE.md', 'dist/ca-cron-editor-with-translate/LICENSE.md')\"",
-    "copy-readme": "node -e \"require('fs').copyFileSync('README.md', 'dist/ca-cron-editor-with-translate/README.md')\"",
+    "copy-license": "node -e \"require('fs').copyFileSync('LICENSE.md', 'dist/cloudapper-cron-editor/LICENSE.md')\"",
+    "copy-readme": "node -e \"require('fs').copyFileSync('README.md', 'dist/cloudapper-cron-editor/README.md')\"",
     "copy-files": "npm run copy-license && npm run copy-readme",
-    "pack_lib": "cd dist/ca-cron-editor-with-translate && npm pack",
+    "pack_lib": "cd dist/cloudapper-cron-editor && npm pack",
     "package": "npm run build_lib && npm run copy-files && npm run pack_lib"
   },
   "private": false,

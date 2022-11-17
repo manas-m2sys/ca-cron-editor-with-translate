@@ -1,9 +1,9 @@
-import {Component} from '@angular/core';
-import {CronEditorTranslateService, CronOptions} from 'ca-cron-editor-with-translate';
-import {TranslateService} from '@ngx-translate/core';
+import { Component } from '@angular/core';
+import { CronEditorTranslateService, CronOptions } from 'cloudapper-cron-editor';
+import { TranslateService } from '@ngx-translate/core';
 
-import {en} from './translations/en';
-import {ru} from './translations/ru';
+import { en } from './translations/en';
+import { ru } from './translations/ru';
 
 @Component({
   selector: 'app-root',
@@ -40,14 +40,14 @@ export class AppComponent {
   };
 
   constructor(private translate: TranslateService,
-              private cronEditorTranslateService: CronEditorTranslateService) {
+    private cronEditorTranslateService: CronEditorTranslateService) {
     translate.setTranslation('en', en);
     translate.setTranslation('ru', ru);
     translate.use('en');
     cronEditorTranslateService.init({
       existent: [
-        {lang: 'en', useExistent: 'en'},
-        {lang: 'ru', useExistent: 'ru'}
+        { lang: 'en', useExistent: 'en' },
+        { lang: 'ru', useExistent: 'ru' }
       ]
     });
   }

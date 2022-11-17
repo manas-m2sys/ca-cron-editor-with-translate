@@ -112,25 +112,25 @@
         }
       }
     },
-    "ca-cron-editor-with-translate": {
-      "root": "projects/ca-cron-editor-with-translate",
-      "sourceRoot": "projects/ca-cron-editor-with-translate/src",
+    "cloudapper-cron-editor": {
+      "root": "projects/cloudapper-cron-editor",
+      "sourceRoot": "projects/cloudapper-cron-editor/src",
       "projectType": "library",
       "prefix": "cron",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ca-cron-editor-with-translate/tsconfig.lib.json",
-            "project": "projects/ca-cron-editor-with-translate/ng-package.json"
+            "tsConfig": "projects/cloudapper-cron-editor/tsconfig.lib.json",
+            "project": "projects/cloudapper-cron-editor/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ca-cron-editor-with-translate/src/test.ts",
-            "tsConfig": "projects/ca-cron-editor-with-translate/tsconfig.spec.json",
-            "karmaConfig": "projects/ca-cron-editor-with-translate/karma.conf.js"
+            "main": "projects/cloudapper-cron-editor/src/test.ts",
+            "tsConfig": "projects/cloudapper-cron-editor/tsconfig.spec.json",
+            "karmaConfig": "projects/cloudapper-cron-editor/karma.conf.js"
           }
         }
       }

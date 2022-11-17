@@ -1,6 +1,6 @@
-import {Pipe, PipeTransform} from '@angular/core';
+import { Pipe, PipeTransform } from '@angular/core';
 
-export const ngxTranslatePrefix = 'ca-cron-editor-with-translate';
+export const ngxTranslatePrefix = 'cloudapper-cron-editor';
 
 @Pipe({
   name: 'prefix'
