@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - "12.16.3"
+dist: trusty
+sudo: false
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - npm run build_lib
+  - ng build --prod --base-href https://manas-m2sys.github.io/ca-cron-editor-with-translate/
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/cron-editor-app
+  on:
+    branch: master

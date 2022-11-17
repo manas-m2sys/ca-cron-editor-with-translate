@@ -1,0 +1,81 @@
+{
+  "name": "cron-editor-app",
+  "description": "A cron expression generator to be used in Angular applications",
+  "author": {
+    "name": "Matvey Ril",
+    "email": "matvej.ril@gmail.com"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manas-m2sys/ca-cron-editor-with-translate"
+  },
+  "bugs": {
+    "url": "https://github.com/manas-m2sys/ca-cron-editor-with-translate/issues"
+  },
+  "homepage": "https://github.com/manas-m2sys/ca-cron-editor-with-translate",
+  "keywords": [
+    "angular",
+    "cron",
+    "cron-expression",
+    "angular-cli",
+    "quartz",
+    "ngx-translate"
+  ],
+  "scripts": {
+    "ng": "ng",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "build_lib": "ng build ca-cron-editor-with-translate",
+    "build": "npm run build_lib && ng build --configuration production",
+    "start": "npm run build_lib && ng serve",
+    "copy-license": "node -e \"require('fs').copyFileSync('LICENSE.md', 'dist/ca-cron-editor-with-translate/LICENSE.md')\"",
+    "copy-readme": "node -e \"require('fs').copyFileSync('README.md', 'dist/ca-cron-editor-with-translate/README.md')\"",
+    "copy-files": "npm run copy-license && npm run copy-readme",
+    "pack_lib": "cd dist/ca-cron-editor-with-translate && npm pack",
+    "package": "npm run build_lib && npm run copy-files && npm run pack_lib"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~14.2.10",
+    "@angular/common": "~14.2.10",
+    "@angular/compiler": "~14.2.10",
+    "@angular/core": "~14.2.10",
+    "@angular/forms": "~14.2.10",
+    "@angular/platform-browser": "~14.2.10",
+    "@angular/platform-browser-dynamic": "~14.2.10",
+    "@angular/router": "~14.2.10",
+    "@ngx-translate/core": "^13.0.0",
+    "core-js": "^2.5.4",
+    "rxjs": "~6.6.3",
+    "zone.js": "~0.11.4"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~14.2.9",
+    "@angular/cli": "~14.2.9",
+    "@angular/compiler-cli": "~14.2.10",
+    "@angular/language-service": "~14.2.10",
+    "@types/jasmine": "~3.6.0",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~10.12.11",
+    "bootstrap": "~3.3.7",
+    "codelyzer": "^6.0.0",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~5.0.0",
+    "jquery": "^3.5.1",
+    "karma": "~6.3.17",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.0.1",
+    "karma-jasmine": "~4.0.0",
+    "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^14.2.2",
+    "protractor": "~7.0.0",
+    "ts-node": "~7.0.0",
+    "tsickle": ">=0.29.0",
+    "tslib": "^2.3.1",
+    "tslint": "~6.1.3",
+    "typescript": "~4.6.4"
+  }
+}

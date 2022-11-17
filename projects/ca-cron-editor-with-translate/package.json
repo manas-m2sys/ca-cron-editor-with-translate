@@ -1,0 +1,31 @@
+{
+  "name": "ca-cron-editor-with-translate",
+  "description": "A cron expression generator to be used in Angular applications",
+  "author": {
+    "name": "Matvey Ril",
+    "email": "matvej.ril@gmail.com"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manas-m2sys/ca-cron-editor-with-translate"
+  },
+  "bugs": {
+    "url": "https://github.com/manas-m2sys/ca-cron-editor-with-translate/issues"
+  },
+  "homepage": "https://github.com/manas-m2sys/ca-cron-editor-with-translate",
+  "keywords": [
+    "angular",
+    "cron",
+    "cron-expression",
+    "angular-cli",
+    "quartz",
+    "ngx-translate"
+  ],
+  "peerDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0",
+    "@ngx-translate/core": ">=11.0.0"
+  }
+}
