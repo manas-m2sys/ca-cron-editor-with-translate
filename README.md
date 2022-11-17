@@ -9,7 +9,7 @@ This library uses the Bootstrap 3 CSS classes, but does not include them. You ca
 
 ## Demo
 
-A demo of this library can be found [here](https://manas-m2sys.github.io/ca-cron-editor-with-translate/).
+A demo of this library can be found [here](https://matvejril.github.io/cron-editor-with-translate/).
 
 ## Installation
 
