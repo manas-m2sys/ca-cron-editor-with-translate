@@ -1,7 +1,7 @@
 # ca-cron-editor-with-translate
 
 `ca-cron-editor-with-translate` is library that helps the user graphically build a CRON expression (quartz format only) in an Angular application.
-It is a fork of [cron-editor](https://github.com/claudiuconstantin/cron-editor).
+It is a fork of [cron-editor-with-translate](https://github.com/matvejril/cron-editor-with-translate).
 
 This library uses the Bootstrap 3 CSS classes, but does not include them. You can style the component yourself.
 
